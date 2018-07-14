@@ -1,0 +1,64 @@
+h2{
+ box-sizing: border-box;
+
+display: inline-block;
+margin:0;
+}
+
+.item{
+  float:left;
+  /*vertical-align: top;*/
+ padding :5%;
+ /*font-size: 1rem;*/ /* root em:16px*/
+}
+
+.item-A{
+  width:25%;
+  background-color: yellow;
+}
+.item-B{
+    width:20%;
+  background-color: yellowgreen;
+}
+.item-C{
+    width:25%;
+  background-color: powderblue;
+}
+.container:after{
+  content:'내가 클리어했수다!';
+  display:block;
+  clear:both;
+  height:0;
+  visibility: hidden;
+}
+.container{
+  background-color: pink;
+  /*font-size:0;
+  max-width:1000px;
+  margin:0 auto;*/
+}
+
+footer{
+  clear: both;
+}
+
+@media screen and (min-width:700px)
+{
+  .container{
+    font-size:0;
+  }
+  .item{
+    font-size:1rem;
+    display:inline-block;
+  }
+  .item-A{
+    width:15%
+    
+  }
+  .item-B{
+    width:30%
+  }
+  .item-C{
+    width:25%
+  }
+}

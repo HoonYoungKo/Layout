@@ -1,0 +1,54 @@
+.PAGE4{
+  box-sizing: border-box;
+  display:inline-block;
+  padding:3%;
+  font-size:1rem;
+  vertical-align: top;
+
+}
+.PAGE5{
+  background-color: yellow;
+  width:30%;
+}
+.PAGE6{
+  background-color: yellowgreen;
+  width:30%;
+}
+.PAGE7{
+  background-color: powderblue;
+  width:25%;
+}
+.container{
+font-size:0;
+padding:10px;
+max-width:700px;
+margin:0 auto;
+width:40%
+}
+.intro{
+font-size:1rem;
+padding:10px;
+}
+.intro1{
+  background-color: purple;
+  height:50%;
+}
+.intro2{
+  background-color: pink;
+  height:30%;
+}
+.container2{
+  font-size:0;
+margin:0;
+  width:30%;
+  padding:10px;
+
+}
+.bigbox{
+font-size:0;
+}
+.conte{
+  display:inline-block;
+  font-size:1rem;
+  vertical-align: top;
+}

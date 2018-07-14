@@ -1,0 +1,25 @@
+div, p, h1{box-sizing: border-box;
+margin:0;}
+
+.item{
+
+  background-color: yellow;
+  margin:0;
+
+}
+
+.item:nth-child(odd){
+  background-color: red;
+
+}
+
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-around;
+/*align-items:stretch;*/
+align-content:space-around;
+background:lightgray;
+height:100vh;
+}

@@ -1,0 +1,43 @@
+.Page{
+  background-color: powderblue;
+}
+.Page:nth-child(even){
+ background-color: pink;
+}
+
+body, p, h2, hr{
+  margin:0;
+  box-sizing: border-box;
+}
+
+.Page1{
+  background-color:pink;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+ height: 100vh;
+ flex-basis: 0;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+}
+.window1{
+  display: flex;
+  flex-direction: column;
+}
+.total{
+  display: flex;
+  flex-direction: row;
+}
+
+.Page456:nth-child(1){
+flex-grow: 1;
+}
+.Page456:nth-child(2){
+flex-grow: 2;
+}
+.Page456:nth-child(3){
+flex-grow: 1;
+}

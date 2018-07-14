@@ -1,0 +1,32 @@
+ h2, p , hr, body{
+  margin:0;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  grid-auto-rows: minmax(10em,auto);
+  /*justify-items: start;*/
+  /*align-items: flex-start;*/
+}
+
+.item{
+  background-color: powderblue;
+
+}
+.item:nth-child(1){
+grid-column: 1/4;/*축의 기준으로 1번 축부터 4번축까지 차지하게 함*/
+
+}
+.item:nth-child(4){
+grid-row: 2/4;
+grid-column: 3/4;
+
+}
+.item:nth-child(5){
+/*justify-self:center;
+align-self:center;*/
+}
+.item:nth-child(odd){
+  background-color: pink;
+}
